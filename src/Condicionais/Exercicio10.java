@@ -14,6 +14,7 @@ public class Exercicio10 {
 
         System.out.println("Insira o nível de permissão: ");
         nivelDePermissao = leitura.nextInt();
+        //Scanner.close();
 
         if ((codigo == 2023) && (nivelDePermissao == 1 || nivelDePermissao == 2 || nivelDePermissao == 3)){
             System.out.println("Acesso permitido. Bem-vindo ao sistema! ");
@@ -29,4 +30,3 @@ public class Exercicio10 {
 
     }
 }
-// rever esse e fazer o scanner.close depois !!
