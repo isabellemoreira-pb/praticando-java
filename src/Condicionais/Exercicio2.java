@@ -25,5 +25,6 @@ public class Exercicio2 {
         } else {
             System.out.println("O estudante teve uma média de " + media + " e foi aprovado");
         }
+        leitura.close();
     }
 }

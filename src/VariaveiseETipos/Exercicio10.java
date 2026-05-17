@@ -34,6 +34,6 @@ public class Exercicio10 {
         } else {
             System.out.println("Você precisará abastecer antes de continuar a viagem");
         }
-
+        leitura.close();
     }
 }

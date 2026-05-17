@@ -15,5 +15,6 @@ public class Exercicio2 {
         valorProdutoInteiro =  (int) valorProduto;
 
         System.out.println("O valor inteiro do produto é: " + valorProdutoInteiro);
+        leitura.close();
     }
 }

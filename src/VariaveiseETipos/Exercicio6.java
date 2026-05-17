@@ -21,5 +21,6 @@ public class Exercicio6 {
         }
 
         System.out.println("Categoria do produto: " + categoria);
+        leitura.close();
     }
 }

@@ -16,5 +16,6 @@ public class Exercicio4 {
 
         System.out.println("A temperatura em graus Fahrenheit é: "
                 + fahrenheit);
+        leitura.close();
     }
 }

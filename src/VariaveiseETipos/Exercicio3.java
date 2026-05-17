@@ -23,5 +23,6 @@ public class Exercicio3 {
         media = (nota1 + nota2 +nota3) / 3;
 
         System.out.println("A média das notas é: " + media);
+        leitura.close();
     }
 }

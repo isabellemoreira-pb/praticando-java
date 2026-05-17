@@ -19,6 +19,6 @@ public class Exercicio6 {
         } else {
             System.out.println("Entrada inválida");
         }
-
+        leitura.close();
     }
 }

@@ -27,6 +27,6 @@ public class Exercicio10 {
         } else if (nivelDePermissao != 1 && nivelDePermissao != 2 && nivelDePermissao != 3){
             System.out.println("Acesso negado. Nivel de acesso inválido");
         }
-
+        leitura.close();
     }
 }

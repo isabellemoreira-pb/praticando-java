@@ -14,7 +14,6 @@ public class Exercicio4 {
 
         System.out.println("Insira o segundo número: ");
         segundoNumero = leitura.nextInt();
-        //Scanner.close();
 
         if (primeiroNumero == segundoNumero){
             System.out.println("Os dois números são iguais.");
@@ -23,6 +22,6 @@ public class Exercicio4 {
         } else {
             System.out.println(String.format("O número %d é maior do que o %d", segundoNumero, primeiroNumero));
         }
-
+        leitura.close();
     }
 }

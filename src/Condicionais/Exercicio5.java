@@ -26,6 +26,7 @@ public class Exercicio5 {
             System.out.println("Nenhum desconto aplicado.");
             System.out.println("Valor total: R$ " + valorDaCompra);
         }
+        leitura.close();
     }
 }
 // Pra usar "%" no string.format é preciso usar %%

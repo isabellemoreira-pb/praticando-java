@@ -16,5 +16,6 @@ public class Exercicio7 {
         } else {
             System.out.println("O valor " + emprestimo + " não está dentro do intervalo permitido para empréstimo.");
         }
+        leitura.close();
     }
 }
