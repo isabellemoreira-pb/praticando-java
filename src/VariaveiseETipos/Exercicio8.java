@@ -16,5 +16,6 @@ public class Exercicio8 {
         valorDolar =  valorReais / taxaDeCambio;
 
         System.out.println("O valor em doláres é: US$" + valorDolar);
+        leitura.close();
     }
 }

@@ -16,6 +16,6 @@ public class Exercicio7 {
         } else {
             System.out.println("O número é ímpar");
         }
-
+        leitura.close();
     }
 }

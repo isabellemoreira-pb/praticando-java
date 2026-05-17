@@ -23,8 +23,5 @@ public class Exercicio5 {
                 ".\nEle possui " + numeroDePaginas +
                 " páginas, custa R$" + precoDoLivro +
                 " e pertence à categoria " + categoria + ".");
-
-
-
     }
 }

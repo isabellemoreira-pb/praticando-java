@@ -19,5 +19,6 @@ public class Exercicio9 {
         }
 
         System.out.println(mensagem);
+        leitura.close();
     }
 }

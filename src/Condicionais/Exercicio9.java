@@ -21,5 +21,6 @@ public class Exercicio9 {
             System.out.println("O doador não é compatível");
             System.out.println("Motivo: o doador deve ter mais de 50kg e ter entre 18 e 65 anos.");
         }
+        leitura.close();
     }
 }

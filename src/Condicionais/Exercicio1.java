@@ -16,6 +16,6 @@ public class Exercicio1 {
         } else {
             System.out.println("O número " + numero + " é ímpar.");
         }
-
+        leitura.close();
     }
 }

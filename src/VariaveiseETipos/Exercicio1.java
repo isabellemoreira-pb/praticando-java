@@ -36,10 +36,6 @@ public class Exercicio1 {
                 "\nÉ estudante: " + estudante;
 
         System.out.println(ficha);
-
-
-
-
-
+        leitura.close();
     }
 }

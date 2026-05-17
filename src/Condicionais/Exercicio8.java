@@ -24,5 +24,6 @@ public class Exercicio8 {
         } else {
             System.out.println("Os lados não podem formar um triângulo.");
         }
+        leitura.close();
     }
 }
